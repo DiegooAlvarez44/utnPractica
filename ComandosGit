@@ -13,10 +13,14 @@
 
 
 4- git commit 
-
 asdasdasdad
-
 Nueva liena 19
+
+
 5- git checkout -- . 
+para eliminar cambios que hiciste
+
+
 6- git log
+para ver las versiones anteriores de git 
 
