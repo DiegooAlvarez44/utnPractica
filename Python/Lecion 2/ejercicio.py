@@ -13,11 +13,13 @@ print(int(perimetro))
 """
 # Actividad para determinar el par o impar
 """
+
 num=int(input("Digite un numero "))
 if num%2 == 0:
     print(f"True")
 else:
     print("False")
+
 
 """
 # Actividad para validar si es mayor de edad
