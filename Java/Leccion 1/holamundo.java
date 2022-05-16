@@ -1,3 +1,6 @@
+import java.rmi.server.SocketSecurityException;
+
+import javax.annotation.processing.SupportedOptions;
 import javax.print.attribute.SupportedValuesAttribute;
 
 public class holamundo {
@@ -25,6 +28,31 @@ public class holamundo {
         var titulo = "Estudiante Tecnico en Programacion";
         var union = nombre + " " + titulo;
         System.out.println(union);
+        // Para ordenar el codigo es Format
+
+        var a = 8;
+        var b = 4;
+        System.out.println(a + b);
+        // Contexto de cadena primero hay un string entonces va a tomar todo como cadena
+        System.out.println(nombre + a + b);
+        // Si ponemos la prioridad de parentesis si realiza la suma y despues agrega el string
+        System.out.println(nombre + (a + b));
+        // Diagonal inversa
+        System.out.println("Nueva linea: \n" + nombre);
+        //diagonal inversa y letra n
+        System.out.println("\n Linea doble N \n" + nombre);
+        // Tabulador 
+        System.out.println("Tabulador \t" + nombre);
+        // Tabulador en el otro lado 
+        System.out.println("\t Tabulador" + nombre);
+        // Tabulador doble ejemplo menu
+        System.out.println("\t\t .:MENU:. ");
+        // Borra hacia atras lo que hay en el careacter
+        System.out.println("Retroseso: \b\b" + nombre);
+        // Comillas simples de esta manera ponemos comillas simples
+        System.out.println("Comillas simples:  \'"+nombre+"\'");
+        // Comillas dobles
+        System.out.println("Comillas dobles \""+nombre+"\"");
 
     }
 }
