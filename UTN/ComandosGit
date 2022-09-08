@@ -1,0 +1,26 @@
+# Comandos utiles
+
+
+1- git init
+# Inicializa el repositorio
+
+2- git add .
+# toma todos los archivos que tengamos desde el ultimo commit
+#
+
+
+3- git reset
+
+
+4- git commit 
+asdasdasdad
+Nueva liena 19
+
+
+5- git checkout -- . 
+para eliminar cambios que hiciste
+
+
+6- git log
+para ver las versiones anteriores de git 
+
