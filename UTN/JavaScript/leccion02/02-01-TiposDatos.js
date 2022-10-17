@@ -6,6 +6,11 @@ realmente diriamos que es identica
 */
 var nombre = 'Diego'; //Tipo Str
 console.log(nombre)
+nombre = 44;
+console.log(nombre)
+nombre = 44.4;
+console.log(nombre)
+
 
 var numero = 3000; //Tipo numerico
 console.log(numero)
@@ -39,3 +44,22 @@ class Persona{
     }
 }
 console.log(Persona)
+
+//Tipo de datos underfined
+var x;
+console.log(x);
+ x = undefined;
+ console.log( typeof x)
+
+// null: significa ausencia de valor
+var y = null;// null no es un tipo de dato, pero su origen es object
+console.log(y); 
+ 
+//Tipo de dato array y  Empty String
+var autos = ['Citroen', 'Audi', 'BMW', 'Ford'];
+console.log(autos);
+console.log(typeof autos); //Preguntamos que tipo de dato es
+
+var z = '';
+console.log(z); // Esto se refiere a que es una cadena vacia:
+console.log(typeof z);
