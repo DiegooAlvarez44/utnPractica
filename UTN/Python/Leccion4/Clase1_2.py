@@ -346,42 +346,4 @@ print(cola)
 seRetira = colapop(0)
 print(f'Atendido el cliente: {seRetira}')
 print(cola)
-
-
-
-
-list = [1,2,3,45,3,3,4,5]
-cleanList = []
-for i in list: 
-    if i not in cleanList: cleanList.append(i)
-    print(f"Lista original: {list}\n" f"Lista sin elementos repetidos: {cleanList}")
-
-#Ejercicio 2: Operaciones de conjuntos con listas 
-#Escribe un programa que tenga 2 listas y que a continuacion
-#Cree las siguientes listas (en las que no deben haber repeticiones)
-# 1 Lista de palabras que aparecen en las listas
-# 2 Lista de palabras que aparecen en la primera lista, pero que no en la segunda
-# 3 Lista de palabras que aparecen en la segunda lista, pero no en la primera
-# 4 lista de palabras que aparecen en ambas listas
-
-lista1 = [1,2,3,4,5,6,4,3,2,1,2,5]
-lista2 = [6,3,4,6,1,2,3,5,8,2,3,5]
-
-
-# Agregar personajes a una lista 
-# Escriba un programa donde cree una lista con los siguientes personajes del señor de los anillos
-# Dentro de una lista vacia hayq que llenarla con diccionarios y c ada diccionario va a contener un personaje
-# Nombre: Aragon
-# Clase: Guerrero
-# Raza: Dunaban del Norte
-
-lista = [{'Nombre':'Aragon', 'Clase':'Guerrero', 'Raza':'Duban del Norte'},
-        {'Nombre':'', 'Clase':'', 'Raza':''}]
-
-
-for elem in lista:
-    input(lista) #accedemos a cada elemento de la lista (en este caso cada elemento es un dictionario)
-    for k,v in elem.items():        #acedemos a cada llave(k), valor(v) de cada diccionario
-        print(k, v)
-
 """

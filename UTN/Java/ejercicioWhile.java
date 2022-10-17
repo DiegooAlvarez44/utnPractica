@@ -1,6 +1,7 @@
-package CicloWhile;
+package UTN.Java;
+class CicloWhile1;
 
-public class EjercicioWhile01 {
+public class EjerciciosWhile01 {
     public static void main(String[] args){
         var conteo = 0; // Inferencia de tipos
         while(conteo < 7){
@@ -9,3 +10,4 @@ public class EjercicioWhile01 {
         }
     }
 }
+
