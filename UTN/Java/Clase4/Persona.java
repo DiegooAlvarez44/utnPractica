@@ -2,8 +2,8 @@ package UTN.Java.Clase4;
 
 public class Persona {
     // Atributos de la clase (Caracteristicas)
-    String nombre;
-    String apellido;
+    public String nombre;
+    public String apellido;
     
     //Metodos de la clase (Acciones)
     public void obtenerInformacion(){

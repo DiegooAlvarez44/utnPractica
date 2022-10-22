@@ -55,7 +55,7 @@ console.log(x);
 var y = null;// null no es un tipo de dato, pero su origen es object
 console.log(y); 
  
-//Tipo de dato array y  Empty String
+//Tipo de dato array y  E mpty String
 var autos = ['Citroen', 'Audi', 'BMW', 'Ford'];
 console.log(autos);
 console.log(typeof autos); //Preguntamos que tipo de dato es
