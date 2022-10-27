@@ -2,7 +2,7 @@
  * Ejercicio 10 pedir 10 numeros y escribir la suma total
  * Hacerlo con la clase Scanner y JOptionPane
  */
-package UTN.Java.Clase6.ciclos10;
+package Clase6.Ciclos10;
 
 import java.util.Scanner;
 
@@ -16,6 +16,7 @@ public class Ciclos10 {
             suma += numero;
         }
         System.out.println("La suma de todos los numeros es: "+suma);
+        entrada.close();
     }
 }
 

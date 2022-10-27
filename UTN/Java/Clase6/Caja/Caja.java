@@ -2,7 +2,7 @@
  * Ejercicio 1: Crear un proyecto segun las especificaciones mostradas a continuacion.
  * La formula es: volumen = ancho * alto * profundidad
  */
-package UTN.Java.Clase6.Caja;
+package Clase6.Caja;
 
 public class Caja { // Clase publica caja
     //Atributos (caracteristicas)

@@ -63,3 +63,17 @@ console.log(typeof autos); //Preguntamos que tipo de dato es
 var z = '';
 console.log(z); // Esto se refiere a que es una cadena vacia:
 console.log(typeof z);
+
+//Clase 7 JavaScript
+
+let a , b; // Se pueden crear varias variables dentro de una misma linea
+a = 15, b = 19; //Se puede hacer asignacion de varias variables dentro de una misma linea
+let c = a + b; // Se le asigna el valor de la operacion
+console.log(z)
+
+let _1num = 31;// No utilizar numeros para iniciar el nombre de una variable
+//let break = "Rompe";  No se utiliza las palabras reservadas para asignar variables
+let rompiendo = "Rompe"
+console.log(_1num)
+console.log(rompiendo)
+

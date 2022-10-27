@@ -1,4 +1,4 @@
-package UTN.Java.Clase6.Caja;
+package Clase6.Caja;
 
 public class PruebaCaja {
     public static void main(String args[]) {
@@ -18,5 +18,15 @@ public class PruebaCaja {
         Caja caja2 = new Caja(2, 4, 6); // Llamamos al constructor 2 con nuevos argumentos
         //Llamamos con el nuevo objeto al metodo para un nuevo calculo
         System.out.println("Resultado volumen de caja 2: "+ caja2.calcularVolumen());
+    }
+}
+
+class Persona{
+    String nombre;
+    String apellido;
+
+    Persona(String nombre, String apellido){
+        this.nombre = nombre;
+        this.apellido = apellido;
     }
 }
