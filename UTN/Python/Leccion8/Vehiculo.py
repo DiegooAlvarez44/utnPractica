@@ -7,7 +7,7 @@ class Vehiculo:
     Auto y Bicicleta , las cuales heredan de la clase padre Vehiculo. La clase padre
     debe tener los siguientes atributtos y metodos:
 
-    Vahiculo (clase padre)
+    Vehiculo (clase padre)
     -Atributos(color, ruedas)
     -Metodos(__init__(color, rueda) y __str__())
     

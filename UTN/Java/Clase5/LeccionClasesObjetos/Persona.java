@@ -1,4 +1,4 @@
-package Clase4.LeccionClasesObjetos;
+package Clase5.LeccionClasesObjetos;
 
 public class Persona {
     // Atributos de la clase (Caracteristicas)

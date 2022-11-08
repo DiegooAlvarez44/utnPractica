@@ -1,4 +1,4 @@
-package Clase4.LeccionClasesObjetos;
+package Clase5.LeccionClasesObjetos;
 
 public class PruebaPersona {
     public static void main(String[] args) {

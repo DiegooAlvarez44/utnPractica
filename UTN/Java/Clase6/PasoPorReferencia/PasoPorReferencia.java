@@ -2,8 +2,8 @@ package Clase6.PasoPorReferencia;
 
 import java.lang.Thread.State;
 
-import Clase4.LeccionClasesObjetos.Persona;
-import UTN.Java.Clase4.Persona;
+import Clase5.LeccionClasesObjetos.Persona;
+
 
 public class PasoPorReferencia {
     /**
